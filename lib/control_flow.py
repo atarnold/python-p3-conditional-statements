@@ -35,7 +35,7 @@ def fizzbuzz(num):
 def calculator(operation, num1, num2):
     # your code here
     try:
-        quotient = f"{num1}{operation}{num2}"
+        quotient = f"{num1} {operation} {num2}"
         return eval(quotient)
     except:
         print ("Invalid oepraion!")   
